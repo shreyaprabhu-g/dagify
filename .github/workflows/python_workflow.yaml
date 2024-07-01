@@ -39,6 +39,10 @@ jobs:
     - name: Run Unit Tests
       run: |
         make unit-tests
+        
+    - name: Validate Templates
+      run: |
+        make validate-templates
     
     - name: Run Integration Tests
       run: |
