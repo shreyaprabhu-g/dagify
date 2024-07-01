@@ -27,8 +27,6 @@ def validate(templates_path,schema_file):
                             print(error)
                     raise ValueError(f"Template {file_path} incompatible")
     
-
-
 templates_path="../dagify/dagify/templates"
 schema_file="../dagify/dagify/converter/yaml_validator/schema.yaml"
 validate(templates_path, schema_file)
